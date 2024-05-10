@@ -10,8 +10,8 @@
             Console.WriteLine("Digite o peso da encomenda (em kg):");
             int peso = int.Parse(Console.ReadLine());
 
-            //var frete = new Frete();
-            double valorFrete = Frete.CalcularFrete(distancia, peso);
+            var frete = new Frete();
+            double valorFrete = frete.CalcularFrete(distancia, peso);
 
             Console.WriteLine($"O valor do frete é: R${valorFrete:F2}");
         }

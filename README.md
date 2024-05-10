@@ -20,3 +20,8 @@ public static double CalcularFrete(int distancia, int peso)
    //Código
    
 }
+
+distancia 1
+peso 5
+
+0.10
