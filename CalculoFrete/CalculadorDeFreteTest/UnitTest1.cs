@@ -23,7 +23,7 @@ namespace CalculadorDeFreteTest
         {
 
             //Act
-            var result = _calculadorDeFrete.CalcularFrete(distancia, 4);
+            var result = Frete.CalcularFrete(distancia, 4);
 
             //Assert
 
@@ -43,7 +43,7 @@ namespace CalculadorDeFreteTest
            (int distancia, double expectedValor)
         {
             //Act
-            var result = _calculadorDeFrete.CalcularFrete(distancia, 4);
+            var result = Frete.CalcularFrete(distancia, 4);
 
             //Assert
 
@@ -59,7 +59,7 @@ namespace CalculadorDeFreteTest
            (int distancia, double expectedValor)
         {
             //Act
-            var result = _calculadorDeFrete.CalcularFrete(distancia, 4);
+            var result = Frete.CalcularFrete(distancia, 4);
 
             //Assert
 
@@ -75,7 +75,7 @@ namespace CalculadorDeFreteTest
         {
 
             //Act
-            var result = _calculadorDeFrete.CalcularFrete(distancia, peso);
+            var result = Frete.CalcularFrete(distancia, peso);
 
             //Assert
 
@@ -90,7 +90,7 @@ namespace CalculadorDeFreteTest
         {
 
             //Act
-            var result = _calculadorDeFrete.CalcularFrete(distancia, peso);
+            var result = Frete.CalcularFrete(distancia, peso);
 
             //Assert
 

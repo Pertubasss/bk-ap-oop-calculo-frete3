@@ -8,7 +8,7 @@ namespace CalculoFrete
     {
         //double valorFrete;
 
-        public double CalcularFrete(int distancia, int peso)
+        public static double CalcularFrete(int distancia, int peso)
         {
             double valorFrete = 0.1 * distancia;
 
@@ -19,7 +19,7 @@ namespace CalculoFrete
             return valorFrete;
         }
 
-        private double CalcPeso(int peso, double valorFrete)
+        private static double CalcPeso(int peso, double valorFrete)
         {
             if (peso >= 5 && peso <= 25)
             {
